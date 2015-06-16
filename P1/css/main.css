@@ -1,0 +1,36 @@
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	color: #0f84b2;
+}
+
+
+hr {
+	height: 8px;
+	color: #0f84b2;
+}
+
+/* Header */
+.text-light {
+	color: #38c6ff;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.text-mongo {
+	font-size: 50px;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+/* Figure & Header*/
+@media screen and (max-width: 376px) {
+  	.logo,
+  	.banner {
+  		visibility: hidden;
+  	}
+}
